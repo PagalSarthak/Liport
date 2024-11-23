@@ -5,8 +5,8 @@ import os
 
 # --- CONFIGURATION ---
 # Reddit API credentials
-REDDIT_CLIENT_ID = 'YOUR_CLIENT_ID'  # Replace with your Reddit Client ID
-REDDIT_CLIENT_SECRET = 'YOUR_CLIENT_SECRET  # Replace with your Reddit Client Secret
+REDDIT_CLIENT_ID = 'sFjETMQ15Bzeg9E_x7LyVw'  # Replace with your Reddit Client ID
+REDDIT_CLIENT_SECRET = '_tuXaCKHflxhkYdkiXelsv26vlZdKw'  # Replace with your Reddit Client Secret
 REDDIT_USER_AGENT = 'linux-solution-bot'  # Custom user agent for your app
 
 if not REDDIT_CLIENT_ID or not REDDIT_CLIENT_SECRET or not REDDIT_USER_AGENT:
@@ -51,6 +51,7 @@ GREEN = '\033[32m'  # Green text
 YELLOW = '\033[33m'  # Yellow text
 RED = '\033[31m'  # Red text
 MAGENTA = '\033[35m'  # Magenta text
+
 
 # ASCII Art
 ASCII_ART = """
@@ -134,7 +135,7 @@ def main():
     print(f"{MAGENTA}{ASCII_ART}{RESET}")
     print(f"{MAGENTA}Welcome to Liport, your Linux solution bot.{RESET}")
     print(f"{YELLOW}Type 'exit' to quit the bot.{RESET}")
-    
+    print(f"{RED}Made By PAGAL SARTHAK{RESET}")
     while True:
         query = input(f"{CYAN}Liport> {RESET}").strip()  # Wait for user input and remove unnecessary spaces
         
