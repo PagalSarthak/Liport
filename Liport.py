@@ -5,8 +5,8 @@ import os
 
 # --- CONFIGURATION ---
 # Reddit API credentials
-REDDIT_CLIENT_ID = 'sFjETMQ15Bzeg9E_x7LyVw'  # Replace with your Reddit Client ID
-REDDIT_CLIENT_SECRET = '_tuXaCKHflxhkYdkiXelsv26vlZdKw'  # Replace with your Reddit Client Secret
+REDDIT_CLIENT_ID = 'YOUR_CLIENT_ID'  # Replace with your Reddit Client ID
+REDDIT_CLIENT_SECRET = 'YOUR_CLIENT_SECRET  # Replace with your Reddit Client Secret
 REDDIT_USER_AGENT = 'linux-solution-bot'  # Custom user agent for your app
 
 if not REDDIT_CLIENT_ID or not REDDIT_CLIENT_SECRET or not REDDIT_USER_AGENT:
