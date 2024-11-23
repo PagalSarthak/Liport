@@ -85,3 +85,9 @@ Title: How to fix sudo: unable to resolve host
 Link: https://unix.stackexchange.com/questions/123456
 
 ```
+
+# License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
